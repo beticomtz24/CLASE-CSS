@@ -1,0 +1,45 @@
+h1 {
+    color: aquamarine;
+    
+
+}
+
+/* Selectores avanzados */
+/*Sirven para ser mas especificos en la parte que queremos seleccionar */
+header {
+    background-color: blanchedalmond;
+}
+
+nav ul{
+    padding: 0;
+    text-align: center;
+    background-color: coral;
+}
+
+nav ul li a {
+    color: green;
+    text-decoration: none;
+}
+/* Pseudoclases */
+
+nav ul li a:hover {
+    color: white;
+    
+}
+
+/* Display */
+/* Block | Inline | Inline - block */
+
+nav ul li {
+    display: inline-block;
+    background-color: chocolate;
+    width: 60px;
+    padding: 8px;
+    height: 20px;
+}
+
+footer{
+    background-color: cornsilk;
+    color:aquamarine;
+    text-align: center;
+}
